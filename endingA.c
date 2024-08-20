@@ -4,13 +4,13 @@
 int main(){
     char str[50];
     int i ;
-    printf("Enter The string");
-    scanf("%s",&str);
+    printf("Enter The string\n");
+    scanf("%s",str);
     int length = strlen(str);
     if((str[length-1]) == 'a'){
-        printf("Valid String");
+        printf("Valid String\n");
     }
     else{
-        printf("Invalid String");
+        printf("Invalid String\n");
     }
 }
